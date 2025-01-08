@@ -18,4 +18,5 @@ fy = fy_value * si.MPa
 N_Rd_latex, N_Rd_value = compressive_strength(A, fy)
 
 st.markdown("# Compressive strength of beam cross-sections")
+st.subheader("This is a subheader")
 st.latex(N_Rd_latex)
